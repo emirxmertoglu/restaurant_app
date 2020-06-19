@@ -105,7 +105,7 @@ export default {
     orderItem() {
       this.$socket.emit('new_order', {
         table: this.table,
-        order: 'yemek seçimi yaptı'
+        order: '... food'
       })
     }
   },
